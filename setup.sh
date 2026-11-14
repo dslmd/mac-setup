@@ -40,8 +40,8 @@ CASKS=(
   ltspice
   anydesk
   tailscale-app
-  thaw
-  moomoo
+  thaw                      # 要 macOS 26 以上
+  endnote                   # EndNote 2025，装完自己登录激活
 )
 
 # ---------- Mac App Store（要先登录 App Store）----------
@@ -61,12 +61,12 @@ MAS_APPS=(
 # ---------- 只能手动装的 ----------
 # 格式: "名字|网址"，网址留空就只提醒
 MANUAL=(
-  "EndNote 2025|https://endnote.com/downloads"
   "NeatDownloadManager|https://www.neatdownloadmanager.com"
+  "moomoo|https://www.moomoo.com/download"
+  "Muse (Meta)|https://ai.meta.com/muse/download/"
   "Gemini|https://gemini.google.com"
   "爱壹帆|https://www.iyf.tv"
   "DeepSeek|"
-  "Muse|"
 )
 
 VIDAC_REPO="dslmd/Vidac"
